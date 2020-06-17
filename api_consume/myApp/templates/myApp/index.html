@@ -1,0 +1,17 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    {% for data in res %}
+    <div>
+        <p>Message: <span id='message'>{{ data.message }}</span></p>
+        <p>db: <span id='db'>{{ data.db }}</span></p>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
